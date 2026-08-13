@@ -1,1 +1,69 @@
+body {
+    max-width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
 
+header {
+    background-color: #001f3f; /* Azul Marinho */
+    color: #FFFFFF; /* Branco */
+    text-align: center;
+    padding: 24px;
+}
+
+main {
+    background-color: #FFFFFF;
+    color: #001f3f;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    border: 2px solid #001f3f;
+    border-radius: 8px;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 300px; /* Ajusta melhor para 6 posts */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #001f3f;
+    margin-top: 8px;
+}
+
+.artigo-fonte {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+button {
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
